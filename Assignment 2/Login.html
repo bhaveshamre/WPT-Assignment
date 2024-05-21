@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<Title>Login</Title>
+<style>
+    *{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+    body{
+        background: linear-gradient(purple,rgb(255, 192, 203));
+    }
+#login{
+    width: 500px;
+    height: 450px;
+    background-color: azure;
+    color: black;
+    margin: 100px auto;
+    text-align: centre;
+    box-shadow: 10px 10px 15px blue;
+    border-radius: 15%;
+}
+input{
+    width: 70%;
+    margin-bottom: 25px;
+    padding: 15px 1px;
+    transition: background 0.2;
+    border-width: 0px;
+    border-bottom-width: 2px;
+    border-bottom-color: black;
+    cursor: pointer;
+}
+button{ margin-top: 20px; color: black; background-color: skyblue; width: 30%; margin-bottom: 15px;border: 2px solid black;border-radius: 6%;}
+h2{height: 25px;padding: 45px;}
+button:hover{cursor: pointer; color: red;background-color: white;border-width: 2px;}
+</style>
+</head>
+
+<body>
+<div id="login" style="text-align: center;">
+<h2>LOGIN</h2>
+<form style="text-align: center;">
+    <input type="text" placeholder="Enter Username">
+    <input type="password" placeholder="Enter Password">
+    <button type="submit">Login</button>
+
+
+</form>
+<p>New Accouunt ? <a href="http://192.168.1.103:5500/signup.html" target="_blank">Sign Up</a></p>
+</div>    
+
+</body>
+
+
+</html>

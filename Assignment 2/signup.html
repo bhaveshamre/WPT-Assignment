@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Signup</title>
+        <style>
+            body{background: linear-gradient(orange,rgb(240, 217, 217));}
+            #signup{ background: linear-gradient(white,lightblue);
+                width: 450px; height: 550px;border-radius: 20%;box-shadow: 10px 10px 25px orange;
+                background-color: white;color: black;;
+                margin: 100px auto;text-align: center;margin-top: 50px; padding-top: 20px;
+            }
+            input{
+                width: 65%; margin: 12px; padding: 12px 2px;
+            border-width: 0px;border-bottom-color: black;border-bottom-width: 2px;
+         background-color: rgb(240, 238, 238);
+        }
+        button{margin-top: 15px; color: black;background-color: violet;cursor: pointer;border-color: darkblue;}
+#Last{margin-top: 50px; width: 150; height: 100;}
+
+
+        </style>
+
+    </head>
+    <body>
+        <div id="signup">
+        <h1  style="margin: 25px auto;">Sign Up</h1>
+
+        <form>
+            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="Last Name">
+            <input type="email" placeholder="Email ID">
+            <input type="password" placeholder="Password">
+
+        </form>
+        <p id="bet">Already a member? <a href="http://192.168.1.103:5500/Login.html?" target="_blank">Log In</a> </p>
+        <button>Sign up</button>
+        <P style="color: red;" id="Last">if an error occurs when filling a form,<br> a message will be shown here.</P>
+         </div>
+    </body>
+</html>
