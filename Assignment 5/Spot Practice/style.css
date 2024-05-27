@@ -1,0 +1,28 @@
+*{
+    padding: 0; margin: 0;box-sizing: border-box;
+  }
+
+.background{
+    width: 100%;
+    height: 100%;
+    background-color: lightgrey;
+
+}
+
+.container{
+    width: 50%;
+    height: 330px;
+    border: 1px black;
+    margin-top: 5%;
+    background-color: white;
+}
+.text-center{
+    margin-top: 5%;
+}
+.btn{
+    width: 100%;
+    background-color: rgba(25, 228, 25, 0.801);
+}
+.link1{
+    color: rgba(25, 228, 25, 0.801);
+}
